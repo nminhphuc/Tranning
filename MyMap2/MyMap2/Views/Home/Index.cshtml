@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="LeftPanelWrap">
+    <div class="LeftPanel">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-primary" onclick="MyMap()">Reset</button>
+        </div>
+        <div class="col-md-12">
+            On Click: <span id="onClick"></span>
+        </div>
+        <div class="col-md-12">
+            Double Click: <span id="doubleClick"></span>
+        </div>
+        <div class="col-md-12">
+            Move Mouse: <span id="MoveMouse"></span>
+        </div>
+        <div class="col-md-12">
+            Zoom Start: <span id="ZoomStart"></span>
+        </div>
+        <div class="col-md-12">
+            Zoom End: <span id="ZoomEnd"></span>
+        </div>
+        <div class="col-md-12">
+            Right Click: <span id="RightClick"></span>
+        </div>
+        <div class="col-md-12">
+            <button type="button" class="btn btn-primary" id="AddCustomMarker" onclick="AddMarkerCustom()">Add Custom Marker</button>
+            <button type="button" class="btn btn-primary" id="AddInfoWindow" onclick="AddInfoWindow()">Add InfoWindow</button>
+            <button type="button" class="btn btn-primary" id="AddPolyLine" onclick="AddPolyLine()">Add PolyLine</button>
+            <button type="button" class="btn btn-primary" id="AddPolyGon" onclick="AddPolyGon()">Add PolyGon</button>
+          @*  <button type="button" class="btn btn-primary" id="AddInfoWindow" onclick="AddInfoWindow()">Add InfoWindow</button>*@
+        </div>
+    </div>
+</div>
+
+<div class="Map-Tools-Wrap">
+    <div class="ToolsBarWrap">
+        <div id="container"></div>
+    </div>
+</div>
+

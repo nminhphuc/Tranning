@@ -1,0 +1,16 @@
+﻿#container {
+    width: 1016px;
+    height: 575px;
+    position: absolute;
+}
+
+.Map-Tools-Wrap {
+    width: 1016px;
+}
+
+.LeftPanelWrap{
+    margin-bottom: 20px;
+}
+.red{
+    color: red;
+}
